@@ -15,6 +15,8 @@ public class Cliente {
     private String email;
     private String cpf;
     private String telefone;
+    @OneToOne
+    @JoinColumn(name = "id_endereco")
     private Endereco endereco;
     private String cnh;
 

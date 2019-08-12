@@ -8,9 +8,9 @@ import java.util.Optional;
 
 @Service
 public class AlugadorServiceImpl implements AlugadorService {
+    @Autowired
     private AlugadorRepository repository;
 
-    @Autowired
     public AlugadorServiceImpl(AlugadorRepository repository) {
         this.repository = repository;
     }

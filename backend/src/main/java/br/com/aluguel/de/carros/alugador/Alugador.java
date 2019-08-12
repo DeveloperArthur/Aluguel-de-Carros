@@ -15,6 +15,8 @@ public class Alugador {
     private String email;
     private String cpf;
     private String telefone;
+    @OneToOne
+    @JoinColumn(name = "id_endereco")
     private Endereco endereco;
 
     public Long getId() {
