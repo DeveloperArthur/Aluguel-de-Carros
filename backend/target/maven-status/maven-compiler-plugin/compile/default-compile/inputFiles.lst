@@ -22,6 +22,7 @@ C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\j
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\aluguel\Aluguel.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\alugador\AlugadorDto.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\endereco\Endereco.java
+C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\geral\GerenciarTransacao.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\cliente\ClienteDto.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\cliente\ClienteController.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\cliente\ClienteRepository.java
@@ -30,6 +31,7 @@ C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\j
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\alugador\AlugadorService.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\aluguel\AluguelTransform.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\cliente\ClienteServiceImpl.java
+C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\geral\GerenciarTransacaoImpl.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\carro\CarroDto.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\alugador\AlugadorTransform.java
 C:\Users\arthur.almeida\Downloads\aluguel de carros\aluguel-de-carros\src\main\java\br\com\aluguel\de\carros\carro\Carro.java
