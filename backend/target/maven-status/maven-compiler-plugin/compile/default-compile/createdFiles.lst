@@ -12,6 +12,7 @@ br\com\aluguel\de\carros\carro\Carro.class
 br\com\aluguel\de\carros\carro\CarroDto.class
 br\com\aluguel\de\carros\carro\CarroServiceImpl.class
 br\com\aluguel\de\carros\aluguel\AluguelDto.class
+br\com\aluguel\de\carros\usuario\UsuarioRepository.class
 br\com\aluguel\de\carros\aluguel\AluguelTransform.class
 br\com\aluguel\de\carros\cliente\ClienteServiceImpl.class
 br\com\aluguel\de\carros\endereco\EnderecoController.class
@@ -19,17 +20,22 @@ br\com\aluguel\de\carros\endereco\Endereco.class
 br\com\aluguel\de\carros\carro\CarroTransform.class
 br\com\aluguel\de\carros\endereco\EnderecoRepository.class
 br\com\aluguel\de\carros\cliente\Cliente.class
+br\com\aluguel\de\carros\usuario\UsuarioServiceImpl.class
 br\com\aluguel\de\carros\endereco\EnderecoService.class
 br\com\aluguel\de\carros\geral\GerenciarTransacaoImpl.class
+br\com\aluguel\de\carros\usuario\Usuario.class
 br\com\aluguel\de\carros\cliente\ClienteService.class
 br\com\aluguel\de\carros\ServletInitializer.class
+br\com\aluguel\de\carros\usuario\UsuarioDto.class
 br\com\aluguel\de\carros\aluguel\Aluguel.class
 br\com\aluguel\de\carros\aluguel\AluguelRepository.class
 br\com\aluguel\de\carros\Application.class
 br\com\aluguel\de\carros\cliente\ClienteController.class
+br\com\aluguel\de\carros\usuario\UsuarioTransform.class
 br\com\aluguel\de\carros\alugador\Alugador.class
 br\com\aluguel\de\carros\alugador\AlugadorService.class
 br\com\aluguel\de\carros\carro\CarroController.class
+br\com\aluguel\de\carros\usuario\UsuarioController.class
 br\com\aluguel\de\carros\endereco\EnderecoServiceImpl.class
 br\com\aluguel\de\carros\alugador\AlugadorController.class
 br\com\aluguel\de\carros\alugador\AlugadorRepository.class
@@ -37,3 +43,4 @@ br\com\aluguel\de\carros\cliente\ClienteDto.class
 br\com\aluguel\de\carros\carro\CarroService.class
 br\com\aluguel\de\carros\aluguel\AluguelService.class
 br\com\aluguel\de\carros\aluguel\AluguelServiceImpl.class
+br\com\aluguel\de\carros\usuario\UsuarioService.class
