@@ -27,14 +27,14 @@ public class ClienteServiceImpl implements ClienteService {
 
     @Override
     public Cliente novo(Cliente cliente) {
-        cliente.setNome(cliente.getNome());
+//        cliente.setNome(cliente.getNome());
         return repository.save(cliente);
     }
 
     @Override
     public Cliente atualiza(Cliente cliente) {
         Cliente clienteAtualizado = repository.save(cliente);
-        //repository.reflesh(clienteAtualizado);
+//      repository.reflesh(clienteAtualizado);
         return clienteAtualizado;
     }
 

@@ -1,7 +1,5 @@
 package br.com.aluguel.de.carros.endereco;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class EnderecoDto {
     private Long id;
     private String logradouro;
@@ -10,7 +8,6 @@ public class EnderecoDto {
     private String complemento;
     private String cidade;
     private String estado;
-    @JsonProperty("atuacao")
 
     public Long getId() {
         return id;

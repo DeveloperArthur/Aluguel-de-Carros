@@ -13,6 +13,11 @@ public final class ClienteTransform {
         ClienteDto dto = new ClienteDto();
         dto.setId(cliente.getId());
         dto.setNome(cliente.getNome());
+        dto.setCnh(cliente.getCnh());
+        dto.setCpf(cliente.getCpf());
+        dto.setEmail(cliente.getEmail());
+        dto.setEndereco(cliente.getEndereco());
+        dto.setTelefone(cliente.getTelefone());
         return dto;
     }
 
@@ -20,6 +25,11 @@ public final class ClienteTransform {
         Cliente cliente = new Cliente();
         cliente.setId(dto.getId());
         cliente.setNome(dto.getNome());
+        cliente.setCnh(dto.getCnh());
+        cliente.setCpf(dto.getCpf());
+        cliente.setEmail(dto.getEmail());
+        cliente.setEndereco(dto.getEndereco());
+        cliente.setTelefone(dto.getTelefone());
         return cliente;
     }
 

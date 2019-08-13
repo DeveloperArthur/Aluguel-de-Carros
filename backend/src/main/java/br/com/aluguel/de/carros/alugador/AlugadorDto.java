@@ -1,7 +1,6 @@
 package br.com.aluguel.de.carros.alugador;
 
 import br.com.aluguel.de.carros.endereco.Endereco;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class AlugadorDto {
     private Long id;
@@ -10,7 +9,6 @@ public class AlugadorDto {
     private String cpf;
     private String telefone;
     private Endereco endereco;
-    @JsonProperty("atuacao")
 
     public Long getId() {
         return id;

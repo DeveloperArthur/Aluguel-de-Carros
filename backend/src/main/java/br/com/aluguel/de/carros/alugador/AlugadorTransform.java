@@ -9,10 +9,14 @@ public class AlugadorTransform {
         throw new RuntimeException("Não é permitido instanciar esta classe! " + this.getClass().getSimpleName());
     }
 
-    public static AlugadorDto converteEntidadeEmDto(Alugador cliente) {
+    public static AlugadorDto converteEntidadeEmDto(Alugador alugador) {
         AlugadorDto dto = new AlugadorDto();
-        dto.setId(cliente.getId());
-        dto.setNome(cliente.getNome());
+        dto.setId(alugador.getId());
+        dto.setNome(alugador.getNome());
+        dto.setCpf(alugador.getCpf());
+        dto.setEmail(alugador.getEmail());
+        dto.setEndereco(alugador.getEndereco());
+        dto.setTelefone(alugador.getTelefone());
         return dto;
     }
 
@@ -20,6 +24,10 @@ public class AlugadorTransform {
         Alugador alugador = new Alugador();
         alugador.setId(dto.getId());
         alugador.setNome(dto.getNome());
+        alugador.setCpf(dto.getCpf());
+        alugador.setEmail(dto.getEmail());
+        alugador.setEndereco(dto.getEndereco());
+        alugador.setTelefone(dto.getTelefone());
         return alugador;
     }
 

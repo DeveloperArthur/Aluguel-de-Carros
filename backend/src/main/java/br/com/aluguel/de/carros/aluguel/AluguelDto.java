@@ -1,7 +1,5 @@
 package br.com.aluguel.de.carros.aluguel;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.time.LocalDate;
 
 public class AluguelDto {
@@ -11,7 +9,6 @@ public class AluguelDto {
     private LocalDate retirada;
     private LocalDate entrega;
     private float valor;
-    @JsonProperty("atuacao")
 
     public Long getId() {
         return id;

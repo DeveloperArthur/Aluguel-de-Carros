@@ -15,7 +15,7 @@ public class Alugador {
     private String email;
     private String cpf;
     private String telefone;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_endereco")
     private Endereco endereco;
 

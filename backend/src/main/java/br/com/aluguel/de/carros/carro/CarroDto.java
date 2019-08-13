@@ -1,7 +1,5 @@
 package br.com.aluguel.de.carros.carro;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class CarroDto {
     private Long id;
     private Long idAlugador;
@@ -11,7 +9,6 @@ public class CarroDto {
     private String marca;
     private String modelo;
     private String placa;
-    @JsonProperty("atuacao")
 
     public String getPlaca() {
         return placa;

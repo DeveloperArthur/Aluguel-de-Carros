@@ -12,13 +12,23 @@ public class EnderecoTransform {
         EnderecoDto dto = new EnderecoDto();
         dto.setId(endereco.getId());
         dto.setLogradouro(endereco.getLogradouro());
+        dto.setBairro(endereco.getBairro());
+        dto.setCidade(endereco.getCidade());
+        dto.setComplemento(endereco.getComplemento());
+        dto.setEstado(endereco.getEstado());
+        dto.setNumero(endereco.getNumero());
         return dto;
     }
 
     public static Endereco converteDtoEmEntidade(EnderecoDto dto) {
         Endereco endereco = new Endereco();
         endereco.setId(dto.getId());
-        dto.setLogradouro(endereco.getLogradouro());
+        endereco.setLogradouro(dto.getLogradouro());
+        endereco.setNumero(dto.getNumero());
+        endereco.setEstado(dto.getEstado());
+        endereco.setComplemento(dto.getComplemento());
+        endereco.setBairro(dto.getBairro());
+        endereco.setCidade(dto.getCidade());
         return endereco;
     }
 

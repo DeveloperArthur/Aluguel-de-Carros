@@ -11,12 +11,22 @@ public class AluguelTransform {
     public static AluguelDto converteEntidadeEmDto(Aluguel aluguel) {
         AluguelDto dto = new AluguelDto();
         dto.setId(aluguel.getId());
+        dto.setEntrega(aluguel.getEntrega());
+        dto.setIdAlugador(aluguel.getIdAlugador());
+        dto.setIdCliente(aluguel.getIdCliente());
+        dto.setRetirada(aluguel.getRetirada());
+        dto.setValor(aluguel.getValor());
         return dto;
     }
 
     public static Aluguel converteDtoEmEntidade(AluguelDto dto) {
         Aluguel aluguel = new Aluguel();
         aluguel.setId(dto.getId());
+        aluguel.setEntrega(dto.getEntrega());
+        aluguel.setIdAlugador(dto.getIdAlugador());
+        aluguel.setRetirada(dto.getRetirada());
+        aluguel.setValor(dto.getValor());
+        aluguel.setIdCliente(dto.getIdCliente());
         return aluguel;
     }
 

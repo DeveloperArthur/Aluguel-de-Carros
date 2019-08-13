@@ -12,6 +12,12 @@ public class CarroTransform {
         CarroDto dto = new CarroDto();
         dto.setId(carro.getId());
         dto.setModelo(carro.getModelo());
+        dto.setDocumentoCarro(carro.getDocumentoCarro());
+        dto.setIdAlugador(carro.getIdAlugador());
+        dto.setKmsRodados(carro.getKmsRodados());
+        dto.setMarca(carro.getMarca());
+        dto.setPlaca(carro.getPlaca());
+        dto.setTipoCombustivel(carro.getTipoCombustivel());
         return dto;
     }
 
@@ -19,6 +25,12 @@ public class CarroTransform {
         Carro carro = new Carro();
         carro.setId(dto.getId());
         carro.setModelo(dto.getModelo());
+        carro.setDocumentoCarro(dto.getDocumentoCarro());
+        carro.setIdAlugador(dto.getIdAlugador());
+        carro.setKmsRodados(dto.getKmsRodados());
+        carro.setMarca(dto.getMarca());
+        carro.setPlaca(dto.getPlaca());
+        carro.setTipoCombustivel(dto.getTipoCombustivel());
         return carro;
     }
 
