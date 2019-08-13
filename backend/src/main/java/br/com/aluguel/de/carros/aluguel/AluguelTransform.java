@@ -12,8 +12,8 @@ public class AluguelTransform {
         AluguelDto dto = new AluguelDto();
         dto.setId(aluguel.getId());
         dto.setEntrega(aluguel.getEntrega());
-        dto.setIdAlugador(aluguel.getIdAlugador());
-        dto.setIdCliente(aluguel.getIdCliente());
+        dto.setAlugador(aluguel.getAlugador());
+        dto.setCliente(aluguel.getCliente());
         dto.setRetirada(aluguel.getRetirada());
         dto.setValor(aluguel.getValor());
         return dto;
@@ -23,10 +23,10 @@ public class AluguelTransform {
         Aluguel aluguel = new Aluguel();
         aluguel.setId(dto.getId());
         aluguel.setEntrega(dto.getEntrega());
-        aluguel.setIdAlugador(dto.getIdAlugador());
+        aluguel.setAlugador(dto.getAlugador());
         aluguel.setRetirada(dto.getRetirada());
         aluguel.setValor(dto.getValor());
-        aluguel.setIdCliente(dto.getIdCliente());
+        aluguel.setCliente(dto.getCliente());
         return aluguel;
     }
 

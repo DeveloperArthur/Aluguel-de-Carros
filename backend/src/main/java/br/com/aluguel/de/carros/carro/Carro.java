@@ -1,5 +1,7 @@
 package br.com.aluguel.de.carros.carro;
 
+import br.com.aluguel.de.carros.alugador.Alugador;
+
 import javax.persistence.*;
 
 @Entity
@@ -9,7 +11,9 @@ public class Carro {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
-    private Long idAlugador;
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_alugadorDoCarro")
+    private Alugador alugador;
     private float kmsRodados;
     private String documentoCarro;
     private String tipoCombustivel;
@@ -33,12 +37,12 @@ public class Carro {
         this.id = id;
     }
 
-    public Long getIdAlugador() {
-        return idAlugador;
+    public Alugador getAlugador() {
+        return alugador;
     }
 
-    public void setIdAlugador(Long idAlugador) {
-        this.idAlugador = idAlugador;
+    public void setAlugador(Alugador alugador) {
+        this.alugador = alugador;
     }
 
     public float getKmsRodados() {
@@ -85,7 +89,7 @@ public class Carro {
     public String toString() {
         return "Carro{" +
                 "id=" + id +
-                ", idAlugador=" + idAlugador +
+                ", idAlugador=" + alugador +
                 ", kmsRodados=" + kmsRodados +
                 ", documentoCarro='" + documentoCarro + '\'' +
                 ", tipoCombustivel='" + tipoCombustivel + '\'' +

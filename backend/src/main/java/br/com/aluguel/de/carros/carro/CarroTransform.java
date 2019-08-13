@@ -13,7 +13,7 @@ public class CarroTransform {
         dto.setId(carro.getId());
         dto.setModelo(carro.getModelo());
         dto.setDocumentoCarro(carro.getDocumentoCarro());
-        dto.setIdAlugador(carro.getIdAlugador());
+        dto.setAlugador(carro.getAlugador());
         dto.setKmsRodados(carro.getKmsRodados());
         dto.setMarca(carro.getMarca());
         dto.setPlaca(carro.getPlaca());
@@ -26,7 +26,7 @@ public class CarroTransform {
         carro.setId(dto.getId());
         carro.setModelo(dto.getModelo());
         carro.setDocumentoCarro(dto.getDocumentoCarro());
-        carro.setIdAlugador(dto.getIdAlugador());
+        carro.setAlugador(dto.getAlugador());
         carro.setKmsRodados(dto.getKmsRodados());
         carro.setMarca(dto.getMarca());
         carro.setPlaca(dto.getPlaca());
