@@ -12,7 +12,7 @@ public class Carro {
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "id_alugadorDoCarro")
+    @JoinColumn(name = "id_alugador")
     private Alugador alugador;
     private float kmsRodados;
     private String documentoCarro;
