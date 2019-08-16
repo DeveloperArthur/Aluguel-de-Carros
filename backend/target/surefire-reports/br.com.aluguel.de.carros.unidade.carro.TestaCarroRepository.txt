@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.aluguel.de.carros.unidade.carro.TestaCarroRepository
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.375 s - in br.com.aluguel.de.carros.unidade.carro.TestaCarroRepository

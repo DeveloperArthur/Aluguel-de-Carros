@@ -1,0 +1,10 @@
+br\com\aluguel\de\carros\unidade\endereco\TestaEnderecoController.class
+br\com\aluguel\de\carros\unidade\endereco\TestaEnderecoRepository.class
+br\com\aluguel\de\carros\unidade\carro\TestaCarroRepository.class
+br\com\aluguel\de\carros\AluguelApplicationTests.class
+br\com\aluguel\de\carros\unidade\aluguel\TestaAluguelServiceImpl.class
+br\com\aluguel\de\carros\unidade\aluguel\TestaAluguelController.class
+br\com\aluguel\de\carros\unidade\usuario\TestaUsuarioRepository.class
+br\com\aluguel\de\carros\unidade\aluguel\TestaAluguelRepository.class
+br\com\aluguel\de\carros\unidade\usuario\TestaUsuarioController.class
+br\com\aluguel\de\carros\unidade\carro\TestaCarroController.class
