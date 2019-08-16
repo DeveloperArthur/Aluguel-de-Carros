@@ -4,6 +4,7 @@ package br.com.aluguel.de.carros.aluguel;
 import br.com.aluguel.de.carros.alugador.Alugador;
 import br.com.aluguel.de.carros.cliente.Cliente;
 import br.com.aluguel.de.carros.usuario.Usuario;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -15,7 +16,7 @@ public class Aluguel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "id_usuario")
     private Usuario usuario;
     private LocalDate retirada;

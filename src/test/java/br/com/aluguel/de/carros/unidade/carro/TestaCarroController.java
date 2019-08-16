@@ -1,7 +1,8 @@
-package br.com.aluguel.de.carros.unidade.aluguel;
+package br.com.aluguel.de.carros.unidade.carro;
 
-import br.com.aluguel.de.carros.aluguel.Aluguel;
-import br.com.aluguel.de.carros.aluguel.AluguelService;
+
+import br.com.aluguel.de.carros.carro.Carro;
+import br.com.aluguel.de.carros.carro.CarroService;
 import org.hamcrest.core.Is;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,23 +23,21 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @AutoConfigureMockMvc
-public class TestaAluguelController {
+public class TestaCarroController {
     @Autowired
     MockMvc mvc;
 
     @Autowired
-    AluguelService service;
+    CarroService service;
 
     @Test
-    public void testaUrlAluguel() throws Exception {
-        Aluguel al = new Aluguel();
-        al.setId(1l);
-        al.setValor(5);
-        given(service.aluguel(1l)).willReturn(Optional.of(al));
-        mvc.perform(get("/aluguel/1").contentType(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$.id", Is.is(al.getId())));
+    public void testaUrlAluguel() throws Exception{
+        Carro c = new Carro();
+        c.setModelo("golf 98");
+
+        given(service.carro(1l)).willReturn(Optional.of(c));
+        mvc.perform(get("/carro").contentType(MediaType.APPLICATION_JSON))
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.c", Is.is(c.getModelo())));
     }
 }
-
-
