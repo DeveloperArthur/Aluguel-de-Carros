@@ -53,9 +53,26 @@ public class TestaUsuarioRepository {
     }
 
     @Test
+    public void AoDeletarUsuario_DeletaUsuario() {
+        Optional<Usuario> usuario = repository.findById(1l);
+        repository.delete(usuario.get());
+        Optional<Usuario> usuarioDeletado = repository.findById(1l);
+        Assert.assertEquals((usuarioDeletado.isPresent()), false);
+    }
+
+    @Test
     public void AoBuscarUsuario_RetornarUsuario() {
         Optional<Usuario> usuario = repository.findById(1l);
-        Assert.assertEquals(Optional.of(1l), usuario.get().getId());
-
+        Assert.assertEquals((usuario.get().getId()==1L), true);
     }
+
+    @Test
+    public void AoAtualizarUsuario_RetornarUsuarioAtualizado(){
+        Optional<Usuario> usuario = repository.findById(1l);
+        usuario.get().setNome("Leandro");
+        usuario.get().setPerfil("alugador");
+        repository.save(usuario.get());
+        Assert.assertEquals(usuario.get().getNome().equals("Leandro"), true);
+    }
+
 }

@@ -1,6 +1,6 @@
 package br.com.aluguel.de.carros.carro;
 
-import br.com.aluguel.de.carros.alugador.Alugador;
+import br.com.aluguel.de.carros.usuario.Usuario;
 
 import javax.persistence.*;
 
@@ -12,8 +12,8 @@ public class Carro {
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "id_alugador")
-    private Alugador alugador;
+    @JoinColumn(name = "id_usuario")
+    private Usuario usuario;
     private float kmsRodados;
     private String documentoCarro;
     private String tipoCombustivel;
@@ -37,12 +37,12 @@ public class Carro {
         this.id = id;
     }
 
-    public Alugador getAlugador() {
-        return alugador;
+    public Usuario getUsuario() {
+        return usuario;
     }
 
-    public void setAlugador(Alugador alugador) {
-        this.alugador = alugador;
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
     }
 
     public float getKmsRodados() {
@@ -89,7 +89,7 @@ public class Carro {
     public String toString() {
         return "Carro{" +
                 "id=" + id +
-                ", idAlugador=" + alugador +
+                ", idAUsuario=" + usuario +
                 ", kmsRodados=" + kmsRodados +
                 ", documentoCarro='" + documentoCarro + '\'' +
                 ", tipoCombustivel='" + tipoCombustivel + '\'' +

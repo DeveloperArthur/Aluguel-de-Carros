@@ -3,6 +3,8 @@ package br.com.aluguel.de.carros.aluguel;
 
 import br.com.aluguel.de.carros.alugador.Alugador;
 import br.com.aluguel.de.carros.cliente.Cliente;
+import br.com.aluguel.de.carros.usuario.Usuario;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -14,12 +16,9 @@ public class Aluguel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "id_cliente")
-    private Cliente cliente;
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "id_alugador")
-    private Alugador alugador;
+    @ManyToOne(cascade = CascadeType.MERGE)
+    @JoinColumn(name = "id_usuario")
+    private Usuario usuario;
     private LocalDate retirada;
     private LocalDate entrega;
     private float valor;
@@ -32,20 +31,12 @@ public class Aluguel {
         this.id = id;
     }
 
-    public Cliente getCliente() {
-        return cliente;
+    public Usuario getUsuario() {
+        return usuario;
     }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
-
-    public Alugador getAlugador() {
-        return alugador;
-    }
-
-    public void setAlugador(Alugador alugador) {
-        this.alugador = alugador;
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
     }
 
     public LocalDate getRetirada() {
