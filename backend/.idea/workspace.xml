@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58714dc7-3de7-486e-9012-0a092690d052" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/carro/TestaCarroServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroTransform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroTransform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/carro/TestaCarroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/carro/TestaCarroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/aluguel/de/carros/unidade/carro/TestaCarroController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,11 +29,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroTransform.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="18" column="39" lean-forward="true" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="21" column="16" lean-forward="true" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/carro/TestaCarroController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="25" column="15" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -59,10 +113,14 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/Carro.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroTransform.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/carro/TestaCarroController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.java" />
       </list>
     </option>
   </component>
@@ -117,18 +175,77 @@
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="carros" type="462c0819:PsiDirectoryNode" />
-              <item name="alugador" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gp" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="carros" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="carros" type="462c0819:PsiDirectoryNode" />
+              <item name="unidade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="carros" type="462c0819:PsiDirectoryNode" />
+              <item name="unidade" type="462c0819:PsiDirectoryNode" />
               <item name="aluguel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="carros" type="462c0819:PsiDirectoryNode" />
+              <item name="unidade" type="462c0819:PsiDirectoryNode" />
+              <item name="carro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="carros" type="462c0819:PsiDirectoryNode" />
+              <item name="unidade" type="462c0819:PsiDirectoryNode" />
+              <item name="endereco" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="carros" type="462c0819:PsiDirectoryNode" />
+              <item name="unidade" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -138,6 +255,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ACTIVE_CLOUD_PROJECT_ACCOUNT" value="arthur.almeida@multiedro.com.br" />
+    <property name="ACTIVE_CLOUD_PROJECT_ID" value="glass-glow-216222" />
+    <property name="ACTIVE_CLOUD_PROJECT_NAME" value="Teste-Login-com-Google" />
+    <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="206066058075" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -163,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Google App Engine Deployment.Google App Engine Deployment">
     <configuration name="TestaAluguelServiceImpl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gp" />
       <extension name="coverage">
@@ -246,10 +371,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Google App Engine Deployment" type="gcp-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="Google App Engine">
+      <deployment type="maven-build-source" name="gp" project="glass-glow-216222" version="auto">
+        <settings cloudProjectName="glass-glow-216222" deployAllConfigs="true" environment="APP_ENGINE_STANDARD" googleUsername="arthur.almeida@multiedro.com.br" promote="true" stopPreviousVersion="true" version="" />
+      </deployment>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google App Engine Deployment.Google App Engine Deployment" />
+      <item itemvalue="JUnit.TestaAluguelServiceImpl" />
+      <item itemvalue="JUnit.TestaCarroServiceImpl" />
+      <item itemvalue="JUnit.TestaEnderecoServiceImpl" />
+      <item itemvalue="JUnit.TestaUsuarioController" />
+      <item itemvalue="JUnit.TestaUsuarioServiceImpl" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestaUsuarioController" />
         <item itemvalue="JUnit.TestaUsuarioServiceImpl" />
+        <item itemvalue="JUnit.TestaUsuarioController" />
         <item itemvalue="JUnit.TestaEnderecoServiceImpl" />
         <item itemvalue="JUnit.TestaCarroServiceImpl" />
         <item itemvalue="JUnit.TestaAluguelServiceImpl" />
@@ -266,7 +408,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565982215309</updated>
-      <workItem from="1565982218644" duration="5206000" />
+      <workItem from="1565982218644" duration="10252000" />
     </task>
     <servers />
   </component>
@@ -292,13 +434,21 @@
     <history-entry file="TestaUsuarioController - 2019.08.19 at 10h 46m 59s.xml">
       <configuration name="TestaUsuarioController" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestaUsuarioController - 2019.08.19 at 11h 55m 09s.xml">
+      <configuration name="TestaUsuarioController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaUsuarioController - 2019.08.19 at 11h 58m 31s.xml">
+      <configuration name="TestaUsuarioController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaUsuarioServiceImpl - 2019.08.19 at 11h 58m 44s.xml">
+      <configuration name="TestaUsuarioServiceImpl" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5206000" />
+    <option name="totallyTimeSpent" value="10252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -306,9 +456,9 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
+      <window_info active="true" anchor="bottom" id="Application Servers" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -319,7 +469,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8527005" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4091653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,13 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
           <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -383,30 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -484,7 +603,49 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroTransform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="18" column="39" lean-forward="true" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="16" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/carro/TestaCarroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="25" column="15" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
         </state>
       </provider>
     </entry>

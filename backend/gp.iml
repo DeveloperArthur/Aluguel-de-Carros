@@ -15,6 +15,9 @@
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
+    <facet type="app-engine-standard" name="Google App Engine Standard">
+      <configuration />
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -107,5 +110,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.xmlunit:xmlunit-core:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.16" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.h2database:h2:1.4.199" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Google App Engine Standard Local Server5" level="application_server_libraries" />
   </component>
 </module>
