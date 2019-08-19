@@ -8,6 +8,10 @@ public interface UsuarioService {
 
     Optional<Usuario> usuario(Long id);
 
+    Optional<Usuario> buscaUsuarioPorEmail(String email);
+
+    boolean validaAcessoDoUsuario(Usuario usuario, String senha);
+
     Usuario novo(Usuario usuario);
 
     Usuario atualiza(Usuario usuario);

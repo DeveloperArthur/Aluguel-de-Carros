@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioRepository
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.033 s - in br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioRepository
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.13 s - in br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioRepository

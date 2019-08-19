@@ -33,6 +33,19 @@ public class UsuarioController {
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
+    @PostMapping("/login")
+    public ResponseEntity<?> login(@RequestBody UsuarioLoginDto usuarioLoginDto) {
+        Optional<Usuario> usuarioOpt = service.buscaUsuarioPorEmail(usuarioLoginDto.getEmail());
+        if (usuarioOpt.isPresent()) {
+            UsuarioDto dto = UsuarioTransform.converteEntidadeEmDto(usuarioOpt.get());
+            if (service.validaAcessoDoUsuario(usuarioOpt.get(), usuarioLoginDto.getSenha()))
+                return new ResponseEntity<UsuarioDto>(dto, HttpStatus.OK);
+            else
+                return new ResponseEntity<UsuarioDto>(dto, HttpStatus.UNAUTHORIZED);
+        } else
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+
     @PostMapping
     public ResponseEntity<?> salva(@RequestBody UsuarioDto dto) {
         Usuario usuario = UsuarioTransform.converteDtoEmEntidade(dto);
