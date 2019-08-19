@@ -20,6 +20,15 @@ public class Carro {
     private String marca;
     private String modelo;
     private String placa;
+    private double valorCarro;
+
+    public double getValorCarro() {
+        return valorCarro;
+    }
+
+    public void setValorCarro(double valorCarro) {
+        this.valorCarro = valorCarro;
+    }
 
     public String getPlaca() {
         return placa;

@@ -18,6 +18,7 @@ public class CarroTransform {
         dto.setMarca(carro.getMarca());
         dto.setPlaca(carro.getPlaca());
         dto.setTipoCombustivel(carro.getTipoCombustivel());
+        dto.setValorCarro(carro.getValorCarro());
         return dto;
     }
 
@@ -31,6 +32,7 @@ public class CarroTransform {
         carro.setMarca(dto.getMarca());
         carro.setPlaca(dto.getPlaca());
         carro.setTipoCombustivel(dto.getTipoCombustivel());
+        carro.setValorCarro(dto.getValorCarro());
         return carro;
     }
 
