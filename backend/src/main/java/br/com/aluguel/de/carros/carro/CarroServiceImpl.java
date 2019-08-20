@@ -47,4 +47,9 @@ public class CarroServiceImpl implements CarroService {
         }
         return false;
     }
+
+    @Override
+    public List<Carro> buscaCarrosPorIdDoUsuarioRegistrador(Long idUsuario){
+        return repository.findByUsuarioRegistradorId(idUsuario);
+    }
 }

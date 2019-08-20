@@ -1,11 +1,10 @@
 package br.com.aluguel.de.carros.carro;
 
-import br.com.aluguel.de.carros.alugador.Alugador;
 import br.com.aluguel.de.carros.usuario.Usuario;
 
 public class CarroDto {
     private Long id;
-    private Usuario usuario;
+    private Usuario usuarioRegistrador;
     private float kmsRodados;
     private String documentoCarro;
     private String tipoCombustivel;
@@ -38,12 +37,12 @@ public class CarroDto {
         this.id = id;
     }
 
-    public Usuario getUsuario() {
-        return usuario;
+    public Usuario getUsuarioRegistrador() {
+        return usuarioRegistrador;
     }
 
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
+    public void setUsuarioRegistrador(Usuario usuarioRegistrador) {
+        this.usuarioRegistrador = usuarioRegistrador;
     }
 
     public float getKmsRodados() {

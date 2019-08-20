@@ -1,5 +1,7 @@
 package br.com.aluguel.de.carros.carro;
 
+import br.com.aluguel.de.carros.usuario.Usuario;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +15,7 @@ public class CarroTransform {
         dto.setId(carro.getId());
         dto.setModelo(carro.getModelo());
         dto.setDocumentoCarro(carro.getDocumentoCarro());
-        dto.setUsuario(carro.getUsuario());
+        dto.setUsuarioRegistrador(carro.getUsuarioRegistrador());
         dto.setKmsRodados(carro.getKmsRodados());
         dto.setMarca(carro.getMarca());
         dto.setPlaca(carro.getPlaca());
@@ -27,7 +29,23 @@ public class CarroTransform {
         carro.setId(dto.getId());
         carro.setModelo(dto.getModelo());
         carro.setDocumentoCarro(dto.getDocumentoCarro());
-        carro.setUsuario(dto.getUsuario());
+        carro.setUsuarioRegistrador(dto.getUsuarioRegistrador());
+        carro.setKmsRodados(dto.getKmsRodados());
+        carro.setMarca(dto.getMarca());
+        carro.setPlaca(dto.getPlaca());
+        carro.setTipoCombustivel(dto.getTipoCombustivel());
+        carro.setValorCarro(dto.getValorCarro());
+        return carro;
+    }
+
+    public static Carro converteDtoEmEntidade(CarroSalvaDto dto) {
+        Carro carro = new Carro();
+        carro.setId(dto.getId());
+        carro.setModelo(dto.getModelo());
+        carro.setDocumentoCarro(dto.getDocumentoCarro());
+        Usuario usuario = new Usuario();
+        usuario.setId(dto.getUsuarioRegistradorId());
+        carro.setUsuarioRegistrador(usuario);
         carro.setKmsRodados(dto.getKmsRodados());
         carro.setMarca(dto.getMarca());
         carro.setPlaca(dto.getPlaca());

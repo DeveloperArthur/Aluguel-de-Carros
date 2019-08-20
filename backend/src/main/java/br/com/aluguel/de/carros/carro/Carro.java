@@ -11,9 +11,9 @@ public class Carro {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "id_usuario")
-    private Usuario usuario;
+    private Usuario usuarioRegistrador;
     private float kmsRodados;
     private String documentoCarro;
     private String tipoCombustivel;
@@ -21,6 +21,7 @@ public class Carro {
     private String modelo;
     private String placa;
     private double valorCarro;
+    private boolean estaAlugado;
 
     public double getValorCarro() {
         return valorCarro;
@@ -46,12 +47,12 @@ public class Carro {
         this.id = id;
     }
 
-    public Usuario getUsuario() {
-        return usuario;
+    public Usuario getUsuarioRegistrador() {
+        return usuarioRegistrador;
     }
 
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
+    public void setUsuarioRegistrador(Usuario usuarioRegistrador) {
+        this.usuarioRegistrador = usuarioRegistrador;
     }
 
     public float getKmsRodados() {
@@ -94,16 +95,27 @@ public class Carro {
         this.modelo = modelo;
     }
 
+    public boolean isEstaAlugado() {
+        return estaAlugado;
+    }
+
+    public void setEstaAlugado(boolean estaAlugado) {
+        this.estaAlugado = estaAlugado;
+    }
+
     @Override
     public String toString() {
         return "Carro{" +
                 "id=" + id +
-                ", idAUsuario=" + usuario +
+                ", usuarioRegistrador=" + usuarioRegistrador +
                 ", kmsRodados=" + kmsRodados +
                 ", documentoCarro='" + documentoCarro + '\'' +
                 ", tipoCombustivel='" + tipoCombustivel + '\'' +
                 ", marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
+                ", placa='" + placa + '\'' +
+                ", valorCarro=" + valorCarro +
+                ", estaAlugado=" + estaAlugado +
                 '}';
     }
 }

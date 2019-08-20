@@ -104,7 +104,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuarioRegistrador/UsuarioController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
@@ -113,7 +113,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuarioRegistrador/TestaUsuarioController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
@@ -137,7 +137,7 @@
     <findStrings>
       <find>h2database</find>
       <find>save</find>
-      <find>cliente</find>
+      <find>usuarioCliente</find>
       <find>data atual</find>
       <find>service</find>
       <find>given</find>
@@ -150,9 +150,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuarioRegistrador/TestaUsuarioRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelTransform.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaAluguelRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuarioRegistrador/TestaAluguelRepository.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/Carro.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroDto.java" />
@@ -161,7 +161,7 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/endereco/TestaEnderecoController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuarioRegistrador/TestaUsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/Aluguel.java" />
@@ -254,7 +254,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="carros" type="462c0819:PsiDirectoryNode" />
-              <item name="usuario" type="462c0819:PsiDirectoryNode" />
+              <item name="usuarioRegistrador" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gp" type="b2602c69:ProjectViewProjectNode" />
@@ -338,7 +338,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="carros" type="462c0819:PsiDirectoryNode" />
               <item name="unidade" type="462c0819:PsiDirectoryNode" />
-              <item name="usuario" type="462c0819:PsiDirectoryNode" />
+              <item name="usuarioRegistrador" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gp" type="b2602c69:ProjectViewProjectNode" />
@@ -636,14 +636,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuarioRegistrador/UsuarioRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuarioRegistrador/UsuarioServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -657,7 +657,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/Usuario.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuarioRegistrador/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-864">
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
@@ -671,7 +671,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuarioRegistrador/TestaUsuarioRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="66" />
@@ -814,14 +814,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuarioRegistrador/UsuarioController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuarioRegistrador/TestaUsuarioController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />

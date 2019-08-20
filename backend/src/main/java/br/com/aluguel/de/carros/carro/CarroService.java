@@ -13,4 +13,6 @@ public interface CarroService {
     Carro atualiza(Carro carro);
 
     boolean deleta(Long id);
+
+    List<Carro> buscaCarrosPorIdDoUsuarioRegistrador(Long idUsuario);
 }

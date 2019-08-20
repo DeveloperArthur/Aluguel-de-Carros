@@ -61,7 +61,7 @@ public class TestaAluguelRepository {
         al.setValor((float) 20.0);
         al.setRetirada(retirada);
         al.setEntrega(entrega);
-        al.setUsuario(u);
+        al.setUsuarioCliente(u);
         aluguelrepository.save(al);
     }
 

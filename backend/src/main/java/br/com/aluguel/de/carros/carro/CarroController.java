@@ -1,5 +1,6 @@
 package br.com.aluguel.de.carros.carro;
 
+import br.com.aluguel.de.carros.usuario.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +16,9 @@ import java.util.Optional;
 public class CarroController {
     @Autowired
     private CarroService service;
+
+    @Autowired
+    private UsuarioService usuarioService;
 
     @GetMapping
     public ResponseEntity<?> todos() {
@@ -34,19 +38,18 @@ public class CarroController {
     }
 
     @PostMapping
-    public ResponseEntity<?> salva(@RequestBody CarroDto dto) {
+    public ResponseEntity<?> salva(@RequestBody CarroSalvaDto dto) {
         Carro carro = CarroTransform.converteDtoEmEntidade(dto);
-        Carro carroSalvo = service.novo(carro);
-        dto = CarroTransform.converteEntidadeEmDto(carroSalvo);
-        return new ResponseEntity<CarroDto>(dto, HttpStatus.OK);
+        service.novo(carro);
+        //System.out.println("TESTE " + carro.getId());
+        return new ResponseEntity<CarroSalvaDto>(dto, HttpStatus.OK);
     }
 
     @PutMapping
-    public ResponseEntity<?> atualiza(@RequestBody CarroDto dto) throws InterruptedException {
+    public ResponseEntity<?> atualiza(@RequestBody CarroSalvaDto dto) {
         Carro carro = CarroTransform.converteDtoEmEntidade(dto);
-        Carro carroAtualizado = service.atualiza(carro);
-        dto = CarroTransform.converteEntidadeEmDto(carroAtualizado);
-        return new ResponseEntity<CarroDto>(dto, HttpStatus.OK);
+        service.atualiza(carro);
+        return new ResponseEntity<CarroSalvaDto>(dto, HttpStatus.OK);
     }
 
     @DeleteMapping("/{id}")
@@ -57,4 +60,14 @@ public class CarroController {
 
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
+
+    @GetMapping("/usuario/{idUsuario}")
+    public ResponseEntity<?> buscaCarrosPorIdDoUsuario(@PathVariable Long idUsuario) {
+        List<Carro> carrosPorUsuario = service.buscaCarrosPorIdDoUsuarioRegistrador(idUsuario);
+        if (carrosPorUsuario.isEmpty()) {
+            return new ResponseEntity<>(carrosPorUsuario, HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(carrosPorUsuario, HttpStatus.OK);
+    }
+
 }

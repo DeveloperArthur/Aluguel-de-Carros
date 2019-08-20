@@ -31,9 +31,9 @@ public class AluguelController {
         }
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
-
+/*
     @PostMapping
-    public ResponseEntity<?> salva(@RequestBody AluguelDto dto) {
+    public ResponseEntity<?> salva(@RequestBody AluguelSalvaDto dto) {
         Aluguel aluguel = AluguelTransform.converteDtoEmEntidade(dto);
         Aluguel aluguelSalvo = service.novo(aluguel);
         dto = AluguelTransform.converteEntidadeEmDto(aluguelSalvo);
@@ -41,12 +41,12 @@ public class AluguelController {
     }
 
     @PutMapping
-    public ResponseEntity<?> atualiza(@RequestBody AluguelDto dto) throws InterruptedException {
+    public ResponseEntity<?> atualiza(@RequestBody AluguelSalvaDto dto) {
         Aluguel aluguel = AluguelTransform.converteDtoEmEntidade(dto);
         Aluguel aluguelAtualizado = service.atualiza(aluguel);
         dto = AluguelTransform.converteEntidadeEmDto(aluguelAtualizado);
         return new ResponseEntity<AluguelDto>(dto, HttpStatus.OK);
-    }
+    }*/
 
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleta(@PathVariable Long id) {
