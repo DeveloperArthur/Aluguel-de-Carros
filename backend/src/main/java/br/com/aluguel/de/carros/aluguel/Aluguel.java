@@ -17,7 +17,7 @@ public class Aluguel {
     @ManyToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "id_usuario")
     private Usuario usuarioCliente;
-    @OneToOne
+    @OneToOne(cascade = CascadeType.MERGE)
     @JoinColumn(name = "id_carro")
     private Carro carro;
     private LocalDate retirada;

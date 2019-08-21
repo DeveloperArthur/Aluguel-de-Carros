@@ -1,5 +1,6 @@
 package br.com.aluguel.de.carros.aluguel;
 
+import br.com.aluguel.de.carros.carro.CarroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,9 @@ import java.util.Optional;
 public class AluguelController {
     @Autowired
     private AluguelService service;
+
+    @Autowired
+    private CarroService carroService;
 
     @GetMapping
     public ResponseEntity<?> todos() {
@@ -31,22 +35,21 @@ public class AluguelController {
         }
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
-/*
+
     @PostMapping
     public ResponseEntity<?> salva(@RequestBody AluguelSalvaDto dto) {
         Aluguel aluguel = AluguelTransform.converteDtoEmEntidade(dto);
-        Aluguel aluguelSalvo = service.novo(aluguel);
-        dto = AluguelTransform.converteEntidadeEmDto(aluguelSalvo);
-        return new ResponseEntity<AluguelDto>(dto, HttpStatus.OK);
+        carroService.gerenciaStatusDoCarro(aluguel.getCarro().getId());
+        service.novo(aluguel);
+        return new ResponseEntity<AluguelSalvaDto>(dto, HttpStatus.OK);
     }
 
     @PutMapping
     public ResponseEntity<?> atualiza(@RequestBody AluguelSalvaDto dto) {
         Aluguel aluguel = AluguelTransform.converteDtoEmEntidade(dto);
-        Aluguel aluguelAtualizado = service.atualiza(aluguel);
-        dto = AluguelTransform.converteEntidadeEmDto(aluguelAtualizado);
-        return new ResponseEntity<AluguelDto>(dto, HttpStatus.OK);
-    }*/
+        service.atualiza(aluguel);
+        return new ResponseEntity<AluguelSalvaDto>(dto, HttpStatus.OK);
+    }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleta(@PathVariable Long id) {
@@ -55,5 +58,14 @@ public class AluguelController {
             return new ResponseEntity<>(HttpStatus.OK);
 
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+    }
+
+    @GetMapping("/usuario/{idCliente}")
+    public ResponseEntity<?> buscaAluguelPorIdDoUsuarioCliente(@PathVariable Long idCliente){
+        List<Aluguel> aluguelPorUsuario = service.buscaAluguelPorIdDoUsuarioCliente(idCliente);
+        if (aluguelPorUsuario.isEmpty()){
+            return new ResponseEntity<>(aluguelPorUsuario, HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(aluguelPorUsuario, HttpStatus.OK);
     }
 }

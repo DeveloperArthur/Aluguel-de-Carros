@@ -13,4 +13,6 @@ public interface AluguelService {
     Aluguel atualiza(Aluguel aluguel);
 
     boolean deleta(Long id);
+
+    List<Aluguel> buscaAluguelPorIdDoUsuarioCliente(Long idCliente);
 }

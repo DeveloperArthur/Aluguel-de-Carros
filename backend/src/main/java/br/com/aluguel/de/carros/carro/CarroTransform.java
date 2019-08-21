@@ -21,6 +21,7 @@ public class CarroTransform {
         dto.setPlaca(carro.getPlaca());
         dto.setTipoCombustivel(carro.getTipoCombustivel());
         dto.setValorCarro(carro.getValorCarro());
+        dto.setEstaAlugado(carro.isEstaAlugado());
         return dto;
     }
 
@@ -35,6 +36,7 @@ public class CarroTransform {
         carro.setPlaca(dto.getPlaca());
         carro.setTipoCombustivel(dto.getTipoCombustivel());
         carro.setValorCarro(dto.getValorCarro());
+        carro.setEstaAlugado(dto.isEstaAlugado());
         return carro;
     }
 
@@ -51,6 +53,7 @@ public class CarroTransform {
         carro.setPlaca(dto.getPlaca());
         carro.setTipoCombustivel(dto.getTipoCombustivel());
         carro.setValorCarro(dto.getValorCarro());
+        carro.setEstaAlugado(dto.isEstaAlugado());
         return carro;
     }
 

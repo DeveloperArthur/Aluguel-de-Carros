@@ -12,6 +12,15 @@ public class CarroDto {
     private String modelo;
     private String placa;
     private double valorCarro;
+    private boolean estaAlugado;
+
+    public boolean isEstaAlugado() {
+        return estaAlugado;
+    }
+
+    public void setEstaAlugado(boolean estaAlugado) {
+        this.estaAlugado = estaAlugado;
+    }
 
     public double getValorCarro() {
         return valorCarro;

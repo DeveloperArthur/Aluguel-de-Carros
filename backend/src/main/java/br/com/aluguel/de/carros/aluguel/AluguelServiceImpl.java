@@ -47,4 +47,9 @@ public class AluguelServiceImpl implements AluguelService{
         }
         return false;
     }
+
+    @Override
+    public List<Aluguel> buscaAluguelPorIdDoUsuarioCliente(Long idCliente){
+        return repository.findByUsuarioClienteId(idCliente);
+    }
 }

@@ -15,4 +15,6 @@ public interface CarroService {
     boolean deleta(Long id);
 
     List<Carro> buscaCarrosPorIdDoUsuarioRegistrador(Long idUsuario);
+
+    void gerenciaStatusDoCarro(Long idCarro);
 }
