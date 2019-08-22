@@ -17,4 +17,6 @@ public interface CarroService {
     List<Carro> buscaCarrosPorIdDoUsuarioRegistrador(Long idUsuario);
 
     void gerenciaStatusDoCarro(Long idCarro);
+
+    void mudaStatusParaDisponivel(Carro carro);
 }

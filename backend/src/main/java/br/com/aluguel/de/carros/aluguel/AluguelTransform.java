@@ -15,6 +15,7 @@ public class AluguelTransform {
         AluguelDto dto = new AluguelDto();
         dto.setId(aluguel.getId());
         dto.setEntrega(aluguel.getEntrega());
+        dto.setCarro(aluguel.getCarro());
         dto.setUsuarioCliente(aluguel.getUsuarioCliente());
         dto.setRetirada(aluguel.getRetirada());
         dto.setValor(aluguel.getValor());
@@ -23,6 +24,7 @@ public class AluguelTransform {
 
     public static Aluguel converteDtoEmEntidade(AluguelDto dto) {
         Aluguel aluguel = new Aluguel();
+        aluguel.setCarro(dto.getCarro());
         aluguel.setId(dto.getId());
         aluguel.setEntrega(dto.getEntrega());
         aluguel.setRetirada(dto.getRetirada());

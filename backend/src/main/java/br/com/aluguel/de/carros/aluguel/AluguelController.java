@@ -39,7 +39,6 @@ public class AluguelController {
     @PostMapping
     public ResponseEntity<?> salva(@RequestBody AluguelSalvaDto dto) {
         Aluguel aluguel = AluguelTransform.converteDtoEmEntidade(dto);
-        carroService.gerenciaStatusDoCarro(aluguel.getCarro().getId());
         service.novo(aluguel);
         return new ResponseEntity<AluguelSalvaDto>(dto, HttpStatus.OK);
     }
@@ -56,14 +55,13 @@ public class AluguelController {
         boolean aluguelRemovido = service.deleta(id);
         if (aluguelRemovido)
             return new ResponseEntity<>(HttpStatus.OK);
-
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
     @GetMapping("/usuario/{idCliente}")
-    public ResponseEntity<?> buscaAluguelPorIdDoUsuarioCliente(@PathVariable Long idCliente){
+    public ResponseEntity<?> buscaAluguelPorIdDoUsuarioCliente(@PathVariable Long idCliente) {
         List<Aluguel> aluguelPorUsuario = service.buscaAluguelPorIdDoUsuarioCliente(idCliente);
-        if (aluguelPorUsuario.isEmpty()){
+        if (aluguelPorUsuario.isEmpty()) {
             return new ResponseEntity<>(aluguelPorUsuario, HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<>(aluguelPorUsuario, HttpStatus.OK);

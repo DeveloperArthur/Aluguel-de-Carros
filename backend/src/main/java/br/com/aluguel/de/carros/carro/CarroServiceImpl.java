@@ -63,4 +63,10 @@ public class CarroServiceImpl implements CarroService {
             repository.save(carro);
         }
     }
+
+    @Override
+    public void mudaStatusParaDisponivel(Carro carro){
+        carro.setEstaAlugado(false);
+        repository.save(carro);
+    }
 }

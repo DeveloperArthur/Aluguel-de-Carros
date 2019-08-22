@@ -41,7 +41,6 @@ public class CarroController {
     public ResponseEntity<?> salva(@RequestBody CarroSalvaDto dto) {
         Carro carro = CarroTransform.converteDtoEmEntidade(dto);
         service.novo(carro);
-        //System.out.println("TESTE " + carro.getId());
         return new ResponseEntity<CarroSalvaDto>(dto, HttpStatus.OK);
     }
 
