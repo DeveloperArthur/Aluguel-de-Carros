@@ -68,5 +68,14 @@ public class CarroController {
         }
         return new ResponseEntity<>(carrosPorUsuario, HttpStatus.OK);
     }
-
+    /*
+    @GetMapping("/aluguel/{idUsuario}")
+    public ResponseEntity<?> buscaCarrosAlugadosPorIdDoUsuario(@PathVariable Long idUsuario, @RequestParam boolean estaAlugado){
+        List<Carro> carrosAlugados = service.buscaCarrosAlugadosPorIdDoUsuarioRegistrador(idUsuario, estaAlugado);
+        if(carrosAlugados.isEmpty()){
+            return new ResponseEntity<>(carrosAlugados, HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(carrosAlugados, HttpStatus.OK);
+    }
+    */
 }

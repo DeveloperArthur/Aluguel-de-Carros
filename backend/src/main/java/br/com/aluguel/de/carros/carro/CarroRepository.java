@@ -9,4 +9,6 @@ import java.util.List;
 @Repository
 public interface CarroRepository extends JpaRepository<Carro, Long>, GerenciarTransacao<Carro> {
     List<Carro> findByUsuarioRegistradorId(Long idUsuario);
+
+    //List<Carro> findByUsuarioRegistradorIdAndEstaAlugado(Long idUsuario, boolean estaAlugado);
 }

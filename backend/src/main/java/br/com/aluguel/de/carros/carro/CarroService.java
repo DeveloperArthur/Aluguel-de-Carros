@@ -19,4 +19,7 @@ public interface CarroService {
     void gerenciaStatusDoCarro(Long idCarro);
 
     void mudaStatusParaDisponivel(Carro carro);
+
+    //List<Carro> buscaCarrosAlugadosPorIdDoUsuarioRegistrador(Long idUsuario, boolean estaAlugado);
+
 }

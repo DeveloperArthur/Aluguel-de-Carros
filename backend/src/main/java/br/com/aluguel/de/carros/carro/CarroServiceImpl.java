@@ -3,7 +3,6 @@ package br.com.aluguel.de.carros.carro;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.OneToOne;
 import java.util.List;
 import java.util.Optional;
 
@@ -69,4 +68,10 @@ public class CarroServiceImpl implements CarroService {
         carro.setEstaAlugado(false);
         repository.save(carro);
     }
+
+    /*@Override
+    public List<Carro> buscaCarrosAlugadosPorIdDoUsuarioRegistrador(Long idUsuario, boolean estaAlugado){
+        return repository.findByUsuarioRegistradorIdAndEstaAlugado(idUsuario, estaAlugado);
+    }
+    */
 }

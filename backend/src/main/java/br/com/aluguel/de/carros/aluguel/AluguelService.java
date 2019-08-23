@@ -15,4 +15,6 @@ public interface AluguelService {
     boolean deleta(Long id);
 
     List<Aluguel> buscaAluguelPorIdDoUsuarioCliente(Long idCliente);
+
+    List<Aluguel> buscaAluguelPorIdDoUsuarioRegistradorDoCarroAlugado(Long idUsuarioRegistrador);
 }

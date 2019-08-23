@@ -66,4 +66,13 @@ public class AluguelController {
         }
         return new ResponseEntity<>(aluguelPorUsuario, HttpStatus.OK);
     }
+
+    @GetMapping("/usuario-registrador/{idUsuarioRegistrador}")
+    public ResponseEntity<?> buscaAluguelPorIdDoUsuarioRegistradorDoCarroAlugado(@PathVariable Long idUsuarioRegistrador) {
+        List<Aluguel> aluguelPorUsuarioRegistrador = service.buscaAluguelPorIdDoUsuarioRegistradorDoCarroAlugado(idUsuarioRegistrador);
+        if (aluguelPorUsuarioRegistrador.isEmpty()) {
+            return new ResponseEntity<>(aluguelPorUsuarioRegistrador, HttpStatus.NOT_FOUND);
+        }
+        return new ResponseEntity<>(aluguelPorUsuarioRegistrador, HttpStatus.OK);
+    }
 }

@@ -9,4 +9,6 @@ import java.util.List;
 @Repository
 public interface AluguelRepository extends JpaRepository<Aluguel, Long>, GerenciarTransacao<Aluguel> {
     List<Aluguel> findByUsuarioClienteId(Long idCliente);
+
+    List<Aluguel> findByCarroUsuarioRegistradorId(Long idUsuarioRegistrador);
 }

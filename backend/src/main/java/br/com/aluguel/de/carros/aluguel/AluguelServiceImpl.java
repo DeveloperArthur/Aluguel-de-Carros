@@ -59,4 +59,9 @@ public class AluguelServiceImpl implements AluguelService {
     public List<Aluguel> buscaAluguelPorIdDoUsuarioCliente(Long idCliente) {
         return repository.findByUsuarioClienteId(idCliente);
     }
+
+    @Override
+    public List<Aluguel> buscaAluguelPorIdDoUsuarioRegistradorDoCarroAlugado(Long idUsuarioRegistrador){
+        return repository.findByCarroUsuarioRegistradorId(idUsuarioRegistrador);
+    }
 }
