@@ -69,6 +69,8 @@ public class CarroController {
         return new ResponseEntity<>(carrosPorUsuario, HttpStatus.OK);
     }
     /*
+    Requisição: {{address}}/carro/aluguel/3?estaAlugado=true
+
     @GetMapping("/aluguel/{idUsuario}")
     public ResponseEntity<?> buscaCarrosAlugadosPorIdDoUsuario(@PathVariable Long idUsuario, @RequestParam boolean estaAlugado){
         List<Carro> carrosAlugados = service.buscaCarrosAlugadosPorIdDoUsuarioRegistrador(idUsuario, estaAlugado);

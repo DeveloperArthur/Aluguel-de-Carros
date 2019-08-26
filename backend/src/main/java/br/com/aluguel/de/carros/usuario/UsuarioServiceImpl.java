@@ -60,4 +60,13 @@ public class UsuarioServiceImpl implements UsuarioService {
         }
         return false;
     }
+
+    @Override
+    public boolean verificaSeEmailExiste(String email){
+        if (buscaUsuarioPorEmail(email).isPresent()){
+            return true;
+        }else{
+            return false;
+        }
+    }
 }

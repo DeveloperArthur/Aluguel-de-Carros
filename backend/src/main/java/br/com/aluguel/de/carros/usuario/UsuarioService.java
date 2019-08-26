@@ -17,4 +17,6 @@ public interface UsuarioService {
     Usuario atualiza(Usuario usuario);
 
     boolean deleta(Long id);
+
+    boolean verificaSeEmailExiste(String email);
 }
