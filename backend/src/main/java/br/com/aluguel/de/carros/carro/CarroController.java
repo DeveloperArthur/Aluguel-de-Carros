@@ -39,9 +39,13 @@ public class CarroController {
 
     @PostMapping
     public ResponseEntity<?> salva(@RequestBody CarroSalvaDto dto) {
-        Carro carro = CarroTransform.converteDtoEmEntidade(dto);
-        service.novo(carro);
-        return new ResponseEntity<CarroSalvaDto>(dto, HttpStatus.OK);
+        if(service.verificaSePlacaExiste(dto.getPlaca())){
+            return new ResponseEntity<CarroSalvaDto>(dto, HttpStatus.CONFLICT);
+        }else{
+            Carro carro = CarroTransform.converteDtoEmEntidade(dto);
+            service.novo(carro);
+            return new ResponseEntity<CarroSalvaDto>(dto, HttpStatus.OK);
+        }
     }
 
     @PutMapping

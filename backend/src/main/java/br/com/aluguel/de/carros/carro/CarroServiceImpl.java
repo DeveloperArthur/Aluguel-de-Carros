@@ -69,6 +69,15 @@ public class CarroServiceImpl implements CarroService {
         repository.save(carro);
     }
 
+    @Override
+    public boolean verificaSePlacaExiste(String placa){
+        if(repository.findByPlaca(placa).isPresent()){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
     /*@Override
     public List<Carro> buscaCarrosAlugadosPorIdDoUsuarioRegistrador(Long idUsuario, boolean estaAlugado){
         return repository.findByUsuarioRegistradorIdAndEstaAlugado(idUsuario, estaAlugado);

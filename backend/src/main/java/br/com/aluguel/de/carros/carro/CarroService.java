@@ -20,6 +20,8 @@ public interface CarroService {
 
     void mudaStatusParaDisponivel(Carro carro);
 
+    boolean verificaSePlacaExiste(String placa);
+
     //List<Carro> buscaCarrosAlugadosPorIdDoUsuarioRegistrador(Long idUsuario, boolean estaAlugado);
 
 }
