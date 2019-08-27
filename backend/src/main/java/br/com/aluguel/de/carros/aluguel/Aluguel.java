@@ -14,10 +14,10 @@ public class Aluguel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
-    @ManyToOne(cascade = CascadeType.MERGE)
+    @ManyToOne
     @JoinColumn(name = "id_usuario")
     private Usuario usuarioCliente;
-    @OneToOne(cascade = CascadeType.MERGE)
+    @OneToOne
     @JoinColumn(name = "id_carro")
     private Carro carro;
     private LocalDate retirada;
@@ -70,5 +70,17 @@ public class Aluguel {
 
     public void setValor(float valor) {
         this.valor = valor;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluguel{" +
+                "id=" + id +
+                ", usuarioCliente=" + usuarioCliente +
+                ", carro=" + carro +
+                ", retirada=" + retirada +
+                ", entrega=" + entrega +
+                ", valor=" + valor +
+                '}';
     }
 }

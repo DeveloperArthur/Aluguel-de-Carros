@@ -44,10 +44,11 @@ public class AluguelController {
     }
 
     @PutMapping
-    public ResponseEntity<?> atualiza(@RequestBody AluguelSalvaDto dto) {
+    public ResponseEntity<?> atualiza(@RequestBody AluguelDto dto) {
         Aluguel aluguel = AluguelTransform.converteDtoEmEntidade(dto);
+        System.out.println(aluguel);
         service.atualiza(aluguel);
-        return new ResponseEntity<AluguelSalvaDto>(dto, HttpStatus.OK);
+        return new ResponseEntity<AluguelDto>(dto, HttpStatus.OK);
     }
 
     @DeleteMapping("/{id}")
