@@ -4,7 +4,6 @@
         class="indigo darken-3" 
         dense
         fixed>
-
             <v-tooltip bottom>
                 <template v-slot:activator="{on}">
                     <v-app-bar-nav-icon color="white"
@@ -32,6 +31,21 @@
                     </v-btn>
                 </template>
                 Meus carros
+            </v-tooltip>
+
+               <v-tooltip bottom v-if="perfilUsuario != 'cliente'">
+                <template v-slot:activator="{on}">
+                    <v-btn
+                    text
+                    class="indigo darken-3"
+                    v-on="on"
+                    to="/meusAlugueis"
+                    :disabled="!statusLogado">
+                        <v-icon color="white">mdi-car</v-icon>
+                        <v-icon color="white">mdi-cash</v-icon>
+                    </v-btn>
+                </template>
+                Mues carros alugados
             </v-tooltip>
 
             <v-tooltip bottom v-if="perfilUsuario != 'alugador'">
@@ -81,7 +95,7 @@
             text
             :disabled="statusLogado"  
             style="color: white"    
-            @click="goToLogin()">{{this.$store.state.usuarioLogado.nome || 'Login / Register'}}
+            @click="goToLogin()">{{this.$store.state.usuarioLogado.nome || 'Login / Cadastro'}}
             </v-btn>
             
         </v-app-bar>
@@ -134,14 +148,14 @@ export default {
 
      methods:{
        goToLogin(){
-           this.$router.push({path: '/login'})
+           this.$router.push({path: '/'})
        },
 
        logOut(){
             setTimeout(() =>{
                 this.$store.state.usuarioLogado = this.defaultData
                 this.$store.state.logado = false
-                this.$router.push({path: '/login'})
+                this.$router.push({path: '/'})
             }, 1000)
         },
 
