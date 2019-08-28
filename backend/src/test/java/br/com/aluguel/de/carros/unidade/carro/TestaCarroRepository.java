@@ -54,7 +54,7 @@ public class TestaCarroRepository {
         usuariorepository.save(u);
 
         Carro c = new Carro();
-        c.setUsuario(u);
+        c.setUsuarioRegistrador(u);
         c.setTipoCombustivel("tipo de combustivel 1");
         c.setPlaca("AEG-1204");
         c.setMarca("marca 2");

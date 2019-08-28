@@ -1,14 +1,11 @@
 package br.com.aluguel.de.carros.aluguel;
 
-import br.com.aluguel.de.carros.carro.Carro;
-import br.com.aluguel.de.carros.usuario.Usuario;
-
 import java.time.LocalDate;
 
-public class AluguelDto {
+public class AluguelSalvaDto {
     private Long id;
-    private Usuario usuarioCliente;
-    private Carro carro;
+    private Long usuarioClienteId;
+    private Long carroId;
     private LocalDate retirada;
     private LocalDate entrega;
     private float valor;
@@ -21,20 +18,20 @@ public class AluguelDto {
         this.id = id;
     }
 
-    public Usuario getUsuarioCliente() {
-        return usuarioCliente;
+    public Long getUsuarioClienteId() {
+        return usuarioClienteId;
     }
 
-    public void setUsuarioCliente(Usuario usuarioCliente) {
-        this.usuarioCliente = usuarioCliente;
+    public void setUsuarioClienteId(Long usuarioClienteId) {
+        this.usuarioClienteId = usuarioClienteId;
     }
 
-    public Carro getCarro() {
-        return carro;
+    public Long getCarroId() {
+        return carroId;
     }
 
-    public void setCarro(Carro carro) {
-        this.carro = carro;
+    public void setCarroId(Long carroId) {
+        this.carroId = carroId;
     }
 
     public LocalDate getRetirada() {

@@ -26,6 +26,19 @@ public class UsuarioServiceImpl implements UsuarioService {
     }
 
     @Override
+    public Optional<Usuario> buscaUsuarioPorEmail(String email) {
+        return repository.findByEmail(email);
+    }
+
+    @Override
+    public boolean validaAcessoDoUsuario(Usuario usuario, String senha) {
+        if (senha.equals(usuario.getSenha()))
+            return true;
+        else
+            return false;
+    }
+
+    @Override
     public Usuario novo(Usuario usuario) {
         usuario.setNome(usuario.getNome());
         return repository.save(usuario);
@@ -46,5 +59,14 @@ public class UsuarioServiceImpl implements UsuarioService {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public boolean verificaSeEmailExiste(String email){
+        if (buscaUsuarioPorEmail(email).isPresent()){
+            return true;
+        }else{
+            return false;
+        }
     }
 }

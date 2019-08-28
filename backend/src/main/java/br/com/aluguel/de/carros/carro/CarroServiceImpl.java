@@ -47,4 +47,40 @@ public class CarroServiceImpl implements CarroService {
         }
         return false;
     }
+
+    @Override
+    public List<Carro> buscaCarrosPorIdDoUsuarioRegistrador(Long idUsuario){
+        return repository.findByUsuarioRegistradorId(idUsuario);
+    }
+
+    @Override
+    public void gerenciaStatusDoCarro(Long idCarro){
+        Optional<Carro> carroOpt = repository.findById(idCarro);
+        if(carroOpt.isPresent()){
+            Carro carro = carroOpt.get();
+            carro.setEstaAlugado(true);
+            repository.save(carro);
+        }
+    }
+
+    @Override
+    public void mudaStatusParaDisponivel(Carro carro){
+        carro.setEstaAlugado(false);
+        repository.save(carro);
+    }
+
+    @Override
+    public boolean verificaSePlacaExiste(String placa){
+        if(repository.findByPlaca(placa).isPresent()){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    /*@Override
+    public List<Carro> buscaCarrosAlugadosPorIdDoUsuarioRegistrador(Long idUsuario, boolean estaAlugado){
+        return repository.findByUsuarioRegistradorIdAndEstaAlugado(idUsuario, estaAlugado);
+    }
+    */
 }

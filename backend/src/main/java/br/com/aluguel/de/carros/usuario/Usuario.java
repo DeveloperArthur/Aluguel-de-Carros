@@ -3,6 +3,7 @@ package br.com.aluguel.de.carros.usuario;
 import br.com.aluguel.de.carros.endereco.Endereco;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 @Entity
 @Table(name = "usuario")

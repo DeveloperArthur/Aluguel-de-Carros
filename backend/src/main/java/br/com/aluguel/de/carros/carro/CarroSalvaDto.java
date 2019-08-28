@@ -1,10 +1,8 @@
 package br.com.aluguel.de.carros.carro;
 
-import br.com.aluguel.de.carros.usuario.Usuario;
-
-public class CarroDto {
+public class CarroSalvaDto {
     private Long id;
-    private Usuario usuarioRegistrador;
+    private Long usuarioRegistradorId;
     private float kmsRodados;
     private String documentoCarro;
     private String tipoCombustivel;
@@ -22,22 +20,6 @@ public class CarroDto {
         this.estaAlugado = estaAlugado;
     }
 
-    public double getValorCarro() {
-        return valorCarro;
-    }
-
-    public void setValorCarro(double valorCarro) {
-        this.valorCarro = valorCarro;
-    }
-
-    public String getPlaca() {
-        return placa;
-    }
-
-    public void setPlaca(String placa) {
-        this.placa = placa;
-    }
-
     public Long getId() {
         return id;
     }
@@ -46,12 +28,12 @@ public class CarroDto {
         this.id = id;
     }
 
-    public Usuario getUsuarioRegistrador() {
-        return usuarioRegistrador;
+    public Long getUsuarioRegistradorId() {
+        return usuarioRegistradorId;
     }
 
-    public void setUsuarioRegistrador(Usuario usuarioRegistrador) {
-        this.usuarioRegistrador = usuarioRegistrador;
+    public void setUsuarioRegistradorId(Long usuarioRegistradorId) {
+        this.usuarioRegistradorId = usuarioRegistradorId;
     }
 
     public float getKmsRodados() {
@@ -92,5 +74,21 @@ public class CarroDto {
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
+    public double getValorCarro() {
+        return valorCarro;
+    }
+
+    public void setValorCarro(double valorCarro) {
+        this.valorCarro = valorCarro;
     }
 }

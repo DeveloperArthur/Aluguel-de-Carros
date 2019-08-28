@@ -1,10 +1,8 @@
 package br.com.aluguel.de.carros.aluguel;
 
 
-import br.com.aluguel.de.carros.alugador.Alugador;
-import br.com.aluguel.de.carros.cliente.Cliente;
+import br.com.aluguel.de.carros.carro.Carro;
 import br.com.aluguel.de.carros.usuario.Usuario;
-import org.springframework.format.annotation.DateTimeFormat;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -16,9 +14,12 @@ public class Aluguel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
-    @ManyToOne(cascade = CascadeType.MERGE)
+    @ManyToOne
     @JoinColumn(name = "id_usuario")
-    private Usuario usuario;
+    private Usuario usuarioCliente;
+    @OneToOne
+    @JoinColumn(name = "id_carro")
+    private Carro carro;
     private LocalDate retirada;
     private LocalDate entrega;
     private float valor;
@@ -31,12 +32,20 @@ public class Aluguel {
         this.id = id;
     }
 
-    public Usuario getUsuario() {
-        return usuario;
+    public Usuario getUsuarioCliente() {
+        return usuarioCliente;
     }
 
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
+    public void setUsuarioCliente(Usuario usuarioCliente) {
+        this.usuarioCliente = usuarioCliente;
+    }
+
+    public Carro getCarro() {
+        return carro;
+    }
+
+    public void setCarro(Carro carro) {
+        this.carro = carro;
     }
 
     public LocalDate getRetirada() {
@@ -61,5 +70,17 @@ public class Aluguel {
 
     public void setValor(float valor) {
         this.valor = valor;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluguel{" +
+                "id=" + id +
+                ", usuarioCliente=" + usuarioCliente +
+                ", carro=" + carro +
+                ", retirada=" + retirada +
+                ", entrega=" + entrega +
+                ", valor=" + valor +
+                '}';
     }
 }

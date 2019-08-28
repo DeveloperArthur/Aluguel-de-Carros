@@ -13,4 +13,15 @@ public interface CarroService {
     Carro atualiza(Carro carro);
 
     boolean deleta(Long id);
+
+    List<Carro> buscaCarrosPorIdDoUsuarioRegistrador(Long idUsuario);
+
+    void gerenciaStatusDoCarro(Long idCarro);
+
+    void mudaStatusParaDisponivel(Carro carro);
+
+    boolean verificaSePlacaExiste(String placa);
+
+    //List<Carro> buscaCarrosAlugadosPorIdDoUsuarioRegistrador(Long idUsuario, boolean estaAlugado);
+
 }
