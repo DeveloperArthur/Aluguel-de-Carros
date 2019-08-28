@@ -2,9 +2,10 @@ package br.com.aluguel.de.carros.carro;
 
 import br.com.aluguel.de.carros.usuario.Usuario;
 
-public class CarroDto {
+public class CarroAlugadoDto {
     private Long id;
     private Usuario usuarioRegistrador;
+    private Usuario usuarioCliente;
     private float kmsRodados;
     private String documentoCarro;
     private String tipoCombustivel;
@@ -13,30 +14,6 @@ public class CarroDto {
     private String placa;
     private double valorCarro;
     private boolean estaAlugado;
-
-    public boolean isEstaAlugado() {
-        return estaAlugado;
-    }
-
-    public void setEstaAlugado(boolean estaAlugado) {
-        this.estaAlugado = estaAlugado;
-    }
-
-    public double getValorCarro() {
-        return valorCarro;
-    }
-
-    public void setValorCarro(double valorCarro) {
-        this.valorCarro = valorCarro;
-    }
-
-    public String getPlaca() {
-        return placa;
-    }
-
-    public void setPlaca(String placa) {
-        this.placa = placa;
-    }
 
     public Long getId() {
         return id;
@@ -52,6 +29,14 @@ public class CarroDto {
 
     public void setUsuarioRegistrador(Usuario usuarioRegistrador) {
         this.usuarioRegistrador = usuarioRegistrador;
+    }
+
+    public Usuario getUsuarioCliente() {
+        return usuarioCliente;
+    }
+
+    public void setUsuarioCliente(Usuario usuarioCliente) {
+        this.usuarioCliente = usuarioCliente;
     }
 
     public float getKmsRodados() {
@@ -92,5 +77,29 @@ public class CarroDto {
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
+    public double getValorCarro() {
+        return valorCarro;
+    }
+
+    public void setValorCarro(double valorCarro) {
+        this.valorCarro = valorCarro;
+    }
+
+    public boolean isEstaAlugado() {
+        return estaAlugado;
+    }
+
+    public void setEstaAlugado(boolean estaAlugado) {
+        this.estaAlugado = estaAlugado;
     }
 }

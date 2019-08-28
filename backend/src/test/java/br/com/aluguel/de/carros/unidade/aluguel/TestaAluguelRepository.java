@@ -61,7 +61,7 @@ public class TestaAluguelRepository {
         al.setValor((float) 20.0);
         al.setRetirada(retirada);
         al.setEntrega(entrega);
-        al.setUsuario(u);
+        al.setUsuarioCliente(u);
         aluguelrepository.save(al);
     }
 
@@ -85,6 +85,7 @@ public class TestaAluguelRepository {
         aluguelrepository.delete(aluguel.get());
         aluguel = aluguelrepository.findById(1l);
         Assert.assertEquals(aluguel.isPresent(), false);
+        System.out.println(aluguel);
     }
 
 

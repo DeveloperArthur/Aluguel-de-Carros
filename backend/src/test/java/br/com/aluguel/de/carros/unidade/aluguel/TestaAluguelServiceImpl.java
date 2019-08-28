@@ -34,13 +34,15 @@ public class TestaAluguelServiceImpl {
         aluguel.setId(1L);
         aluguel.setValor(33);
         Optional<Aluguel> aluguelOpt = Optional.of(aluguel);
-        Mockito.when(repository.findById(1L)).thenReturn(aluguelOpt);
+        Mockito.when(repository.findById(1L))
+                .thenReturn(aluguelOpt);
         this.aluguel = aluguel;
     }
 
     @Test
     public void aoBuscarUmAluguelExistente_RetornarUmAluguelOptional() {
-        Mockito.when(service.aluguel(1L)).thenReturn(Optional.ofNullable(this.aluguel));
+        Mockito.when(service.aluguel(1L))
+                .thenReturn(Optional.ofNullable(this.aluguel));
         Optional<Aluguel> resultado = service.aluguel(1L);
         Aluguel aluguel = resultado.get();
 

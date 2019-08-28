@@ -1,5 +1,8 @@
 package br.com.aluguel.de.carros.aluguel;
 
+import br.com.aluguel.de.carros.carro.Carro;
+import br.com.aluguel.de.carros.usuario.Usuario;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,7 +15,8 @@ public class AluguelTransform {
         AluguelDto dto = new AluguelDto();
         dto.setId(aluguel.getId());
         dto.setEntrega(aluguel.getEntrega());
-        dto.setUsuario(aluguel.getUsuario());
+        dto.setCarro(aluguel.getCarro());
+        dto.setUsuarioCliente(aluguel.getUsuarioCliente());
         dto.setRetirada(aluguel.getRetirada());
         dto.setValor(aluguel.getValor());
         return dto;
@@ -20,11 +24,27 @@ public class AluguelTransform {
 
     public static Aluguel converteDtoEmEntidade(AluguelDto dto) {
         Aluguel aluguel = new Aluguel();
+        aluguel.setCarro(dto.getCarro());
         aluguel.setId(dto.getId());
         aluguel.setEntrega(dto.getEntrega());
         aluguel.setRetirada(dto.getRetirada());
         aluguel.setValor(dto.getValor());
-        aluguel.setUsuario(dto.getUsuario());
+        aluguel.setUsuarioCliente(dto.getUsuarioCliente());
+        return aluguel;
+    }
+
+    public static Aluguel converteDtoEmEntidade(AluguelSalvaDto dto) {
+        Aluguel aluguel = new Aluguel();
+        aluguel.setId(dto.getId());
+        aluguel.setEntrega(dto.getEntrega());
+        aluguel.setRetirada(dto.getRetirada());
+        aluguel.setValor(dto.getValor());
+        Usuario usuario = new Usuario();
+        usuario.setId(dto.getUsuarioClienteId());
+        aluguel.setUsuarioCliente(usuario);
+        Carro carro = new Carro();
+        carro.setId(dto.getCarroId());
+        aluguel.setCarro(carro);
         return aluguel;
     }
 
