@@ -1,15 +1,20 @@
 <template>
     <dir>
         <v-container style="width: 700px; margin-top: 60px" grid-list-md>
+            <v-toolbar 
+                class="headline;
+                text-center;
+                indigo darken-3">
+                <v-toolbar-title style="color:white">Nova Conta</v-toolbar-title>
+            </v-toolbar>
             <v-form class="elevation-2" style="height: auto" v-model="formularioCompleto">
-                <p class="headline text-center ; indigo darken-3"
-                style="color: white"> Nova Conta</p>
                 <v-layout row wrap>
                     <v-radio-group 
                     style="margin-left: 100px"
                     v-model="novaConta.perfil" 
                     v-for="profs in perfils"
                     :key="profs"
+                    :rules="[rules.required]"
                     >
                         <v-radio color="indigo darken-2" :label="profs" :value="profs"></v-radio>
                     </v-radio-group>
@@ -71,7 +76,7 @@
                         <v-flex xs6>
                             <v-text-field
                             v-model="novaConta.telefone"
-                            :rules="[rules.required]"
+                            :rules="[rules.required, rules.telefone]"
                             label="Telefone:"
                             v-mask="telefoneMask"
                             placeholder="Digite seu telefone/celular">
@@ -138,8 +143,24 @@
                             style="margin-bottom: 10px; color: white; font-size: 13px"
                             @click="criarConta()"
                             > Finalizar </v-btn>
+                            <v-snackbar 
+                            top
+                            v-model="snackbarContaCriada"
+                            color="success"
+                            :timeout="2000">
+                                Conta criada com sucesso
+                                <v-icon color="white">mdi-account-plus</v-icon>
+                            </v-snackbar>
+
+                            <v-snackbar 
+                            top
+                            v-model="snackbarErroCriacaoDeConta"
+                            color="error"
+                            :timeout="2000">
+                                Este e-mail já está em uso!
+                                <v-icon color="white">mdi-information</v-icon>
+                            </v-snackbar>
                         </v-flex>
-                    
                     </v-layout>
                 </v-content>
             </v-form>
@@ -158,6 +179,8 @@ export default {
     
     data(){
         return{
+            snackbarErroCriacaoDeConta: false,
+            snackbarContaCriada: false,
             cpfMask: '###.###.###-##',
             cnhMask: '###########',
             telefoneMask: '(##)####-####', 
@@ -206,6 +229,7 @@ export default {
                 required: value => !!value || 'Campo Obrigatório',
                 min: v => v.length >= 8 || 'Min 8 characters', 
                 validateCPF: v => v.length == 14 || 'Digite o CPF completo',
+                telefone: v => v.length == 13 || 'Digite o telefone/celular completo',
                 minCNH: v => v.length == 11 || 'Digite uma CNH válida ',
                 email: value => {
                 const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
@@ -216,25 +240,37 @@ export default {
     },
 
     methods:{
-
         voltarParaOLogin(){
            this.loadingVoltarParaOLogin = true
            setTimeout(() =>{
                 this.loadingVoltarParaOLogin = false
-                this.$router.push({path:'/login'})
+                this.$router.push({path:'/'})
            }, 1500)   
         },
 
         async criarConta(){
             this.loadingFinalizarCriacaoDeConta = true
             await service.salva(this.novaConta)
-            .then(resposta => console.log(resposta))
-            .catch(erro => console.log(erro)) 
-            setTimeout(() =>{
-                this.loadingFinalizarCriacaoDeConta = false
-                this.novaConta = this.defaultData
-                this.$router.push({path:'/login'})
-            }, 1500)
+            .then(resposta => {
+                console.log(resposta)
+                this.snackbarContaCriada = true
+                setTimeout(() =>{
+                    this.loadingFinalizarCriacaoDeConta = false
+                    this.novaConta = this.defaultData
+                    this.$router.push({path:'/'})
+                    this.snackbarContaCriada = false
+                }, 2000)
+            })
+            .catch(erro => {
+                console.log(erro)
+                if(erro == 'Error: Request failed with status code 409'){
+                this.snackbarErroCriacaoDeConta = true
+                    setTimeout(() =>{
+                        this.loadingFinalizarCriacaoDeConta = false
+                        this.snackbarErroCriacaoDeConta = false
+                    },2000)   
+                }
+            }) 
         },
     }
 }

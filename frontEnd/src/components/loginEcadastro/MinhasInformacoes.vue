@@ -1,11 +1,11 @@
 <template>
     <div>
-        <v-container style="margin-top: 60px" class="elevation-4">            
+        <v-container style="margin-top: 60px">            
             <v-layout row wrap>
                 <v-flex xs6>
                     <v-container>
                         <v-card>
-                                   <v-card-title class="elevation-2 light-blue"
+                            <v-card-title class="elevation-2 light-blue"
                             style="color:white">Dados Residencias
                                 <v-spacer></v-spacer> 
                                 <v-btn 
@@ -87,7 +87,7 @@
                                 v-model='dadosDoUsuario.cpf'
                                 :disabled="!dadosPessoaisEditaveis"></v-text-field>
 
-                                <v-text-field
+                                <v-text-field v-if="dadosDoUsuario.cnh != ''"
                                 label="CNH:"
                                 v-mask="cnhMask"
                                 :rules="[rules.required, rules.minCNH]"
@@ -134,7 +134,6 @@ export default {
     },
 
     created(){
-        this.pegarTodosOsUsuarios()
         this.nome = this.userData.nome
         this.dadosDoUsuario = this.userData
     },
@@ -176,22 +175,6 @@ export default {
             this.$store.state.usuarioLogado = this.dadosDoUsuario
             this.dadosResidenciaisEditaveis = false
             this.dadosPessoaisEditaveis = false  
-        },
-
-        pegarTodosOsUsuarios(){
-            service.todos()
-            .then(resposta => {
-            console.log(resposta)
-            let usuariosCadastrados = resposta.data
-            for(let i = 0; i < usuariosCadastrados.length; i++){
-                if(this.$store.state.usuarioLogado.email == usuariosCadastrados[i].email &&
-                    this.$store.state.usuarioLogado.senha == usuariosCadastrados[i].senha){
-                        this.$store.state.usuarioLogado = usuariosCadastrados[i] 
-                }
-            }    
-            console.log(usuariosCadastrados)
-            }).catch(erro => console.log(erro))
-            
         },
     }
 }
