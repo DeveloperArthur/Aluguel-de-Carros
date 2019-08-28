@@ -5,7 +5,7 @@ Vue.use (Vuex);
 
 export const store = new Vuex.Store({
     state: {
-        usuarioLogado: {},
+        usuarioLogado: {id: 0},
         logado: false,
     }
 })

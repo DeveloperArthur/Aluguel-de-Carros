@@ -1,72 +1,35 @@
 {
   "usuarios": [
     {
-      "nome": "Leandro Silva (Cliente)",
+      "nome": "Leandro",
       "cpf": "411.820.998-58",
-      "cnh": "22222222222",
-      "telefone": "(11)5852-9044",
-      "email": "leon.gts@hotmail.com",
-      "senha": "leandro1036",
-      "perfil": "cliente",
-      "endereco": {
-        "logradouro": "Rua Doutor",
-        "bairro": "São Francisco",
-        "numero": "77",
-        "complemento": "",
-        "cidade": "São Paulo",
-        "estado": "SP"
-      },
-      "id": "1"
-    },
-    {
-      "id": "2",
-      "nome": "LeandroAlugador",
-      "cpf": "411.820.998-58",
-      "cnh": "11111111111",
-      "telefone": "1158529044",
-      "email": "leou.boy80@gmail.com",
-      "senha": "leandro1036",
-      "perfil": "alugador",
-      "endereco": {
-        "logradouro": "Rua Jõao",
-        "bairro": "São Francisco",
-        "numero": "22",
-        "complemento": "A",
-        "cidade": "São Paulo",
-        "estado": "SP"
-      }
-    },
-    {
-      "nome": "Leandro Misto Teste",
-      "cpf": "411.820.998-58",
-      "cnh": "16584987514",
-      "telefone": "(46)8732-1354",
-      "email": "leandrinho@hotmail.com",
+      "cnh": "45698713156",
+      "telefone": "(11)7636-6281",
+      "email": "leo@hotmail.com",
       "senha": "leandro1036",
       "perfil": "misto",
       "endereco": {
-        "logradouro": "Rua Almeida",
-        "bairro": "Jardim São",
+        "logradouro": "Rua João Manuel da Silva",
+        "bairro": "Jardim São Francisco de Assis",
         "numero": "22",
         "complemento": "A",
         "cidade": "São Paulo",
         "estado": "SP"
       },
-      "id": "-3H6Ga1"
-    }
-  ],
-  "carros": [],
-  "aluguel": [
-    {
-      "kmRodados": "40",
-      "docCarro": "123456789",
-      "tipoCombustivel": "Gasolina",
-      "marca": "Pegout",
-      "modelo": "Gol Bola",
-      "placa": "Aloha",
-      "dataRet": "25/05/2019",
-      "dataEnt": "30/05/2019",
       "id": 1
     }
-  ]
+  ],
+  "carros": [
+    {
+      "kmRodados": "287",
+      "docCarro": "65654987978",
+      "tipoCombustivel": "Gasolina",
+      "marca": "PEGOU",
+      "modelo": "GOL BOLA",
+      "placa": "ASD-5497",
+      "valorCarro": "25.00",
+      "id": 1
+    }
+  ],
+  "aluguel": []
 }
