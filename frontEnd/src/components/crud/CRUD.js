@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export default{
-  url: 'http://localhost:3000',
+  url: 'https://backend-dev-dot-glass-glow-216222.appspot.com',
   lista: function(recurso){
     return axios({
       method: "GET",
@@ -42,5 +42,6 @@ export default{
       method: 'DELETE',
       url: `${this.url}${recurso}/${id}`,
     })
-  }
+  },
+
 }
