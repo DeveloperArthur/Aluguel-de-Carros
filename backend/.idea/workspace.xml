@@ -1,53 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroController.java" line="64" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroController.java" line="68" />
     <bookmark url="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroService.java" line="16" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58714dc7-3de7-486e-9012-0a092690d052" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroAlugadoDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/aluguel/de/carros/carro/CarroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/aluguel/de/carros/carro/CarroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/aluguel/de/carros/carro/CarroRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/aluguel/de/carros/carro/CarroRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/aluguel/de/carros/carro/CarroService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/aluguel/de/carros/carro/CarroService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/aluguel/de/carros/carro/CarroServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/aluguel/de/carros/carro/CarroServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT.war.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/aluguel/AluguelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/aluguel/AluguelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/aluguel/AluguelServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/aluguel/AluguelServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/carro/CarroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/carro/CarroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/carro/CarroRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/carro/CarroRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/carro/CarroService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/carro/CarroService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/carro/CarroServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/gp-0.0.1-SNAPSHOT/WEB-INF/classes/br/com/aluguel/de/carros/carro/CarroServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.AluguelApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.AluguelApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.aluguel.TestaAluguelRepository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.aluguel.TestaAluguelRepository.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.aluguel.TestaAluguelServiceImpl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.aluguel.TestaAluguelServiceImpl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.carro.TestaCarroRepository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.carro.TestaCarroRepository.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.carro.TestaCarroServiceImpl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.carro.TestaCarroServiceImpl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.endereco.TestaEnderecoRepository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.endereco.TestaEnderecoRepository.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.endereco.TestaEnderecoServiceImpl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.endereco.TestaEnderecoServiceImpl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioRepository.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioRepository.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioServiceImpl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioServiceImpl.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.AluguelApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.AluguelApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.aluguel.TestaAluguelRepository.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.aluguel.TestaAluguelRepository.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.aluguel.TestaAluguelServiceImpl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.aluguel.TestaAluguelServiceImpl.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.carro.TestaCarroRepository.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.carro.TestaCarroRepository.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.carro.TestaCarroServiceImpl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.carro.TestaCarroServiceImpl.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.endereco.TestaEnderecoRepository.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.endereco.TestaEnderecoRepository.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.endereco.TestaEnderecoServiceImpl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.endereco.TestaEnderecoServiceImpl.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioRepository.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioRepository.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioServiceImpl.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/br.com.aluguel.de.carros.unidade.usuario.TestaUsuarioServiceImpl.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,55 +17,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/Aluguel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,6 +66,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>optional</find>
+      <find>RETORNO</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,10 +86,7 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/aluguel/TestaAluguelController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appengine-web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioLoginDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioController.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/carro/TestaCarroRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelSalvaDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroSalvaDto.java" />
@@ -153,22 +94,26 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroTransform.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/Aluguel.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelTransform.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroAlugadoDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelService.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/Triangulo.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/Teste2.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/TesteThiago.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioEmailDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroService.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/Aluguel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
@@ -202,6 +147,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,7 +188,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="carros" type="462c0819:PsiDirectoryNode" />
-              <item name="carro" type="462c0819:PsiDirectoryNode" />
+              <item name="aluguel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="carros" type="462c0819:PsiDirectoryNode" />
+              <item name="usuario" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gp" type="b2602c69:ProjectViewProjectNode" />
@@ -251,56 +206,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="carros" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="carros" type="462c0819:PsiDirectoryNode" />
-              <item name="unidade" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,13 +337,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TesteThiago" />
       <item itemvalue="Google App Engine Deployment.Google App Engine Deployment" />
       <item itemvalue="JUnit.TestaCarroServiceImpl" />
       <item itemvalue="JUnit.TestaEnderecoServiceImpl" />
       <item itemvalue="JUnit.TestaUsuarioController" />
       <item itemvalue="JUnit.TestaUsuarioServiceImpl" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.TesteThiago" />
     </list>
     <recent_temporary>
       <list>
@@ -456,7 +365,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565982215309</updated>
-      <workItem from="1565982218644" duration="80201000" />
+      <workItem from="1565982218644" duration="80800000" />
+      <workItem from="1566821361413" duration="22362000" />
     </task>
     <servers />
   </component>
@@ -493,47 +403,56 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80201000" />
+    <option name="totallyTimeSpent" value="103162000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.25204584" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3282313" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.4387755" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38297874" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42553192" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" weight="0.07488654" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Google Cloud Storage" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Application Servers" order="7" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32733223" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.43862522" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.07488654" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Google Cloud Storage" order="5" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -618,13 +537,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/alugador/AlugadorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/alugador/AlugadorController.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -653,60 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioTransform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioLoginDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -720,13 +583,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/cliente/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/cliente/Cliente.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -755,68 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/unidade/usuario/TestaUsuarioController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelSalvaDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/Carro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#2180#2181#0" expanded="true" />
-            <element signature="e#2214#2215#0" expanded="true" />
-            <element signature="e#2269#2270#0" expanded="true" />
-            <element signature="e#2315#2316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="5" selection-start-line="5" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,20 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/Aluguel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroTransform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -914,76 +699,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/TesteThiago.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/Teste2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/Triangulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#1535#1536#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/TesteThiago.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/aluguel/de/carros/Teste2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/Triangulo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -998,31 +716,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioLoginDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="70" column="123" lean-forward="true" selection-start-line="70" selection-start-column="123" selection-end-line="70" selection-end-column="123" />
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioEmailDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+        <state relative-caret-position="318">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="method#novo#0;class#UsuarioServiceImpl#0" />
+            <element signature="method#atualiza#0;class#UsuarioServiceImpl#0" />
+            <element signature="method#deleta#0;class#UsuarioServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5" selection-start-line="5" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/Carro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1556#1557#0" expanded="true" />
+            <element signature="e#2180#2181#0" expanded="true" />
+            <element signature="e#2214#2215#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1032,14 +811,92 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/carro/CarroServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
+        <state relative-caret-position="80">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelSalvaDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/usuario/UsuarioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="62" column="57" selection-start-line="62" selection-start-column="57" selection-end-line="62" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/Aluguel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,6 +904,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/aluguel/de/carros/aluguel/AluguelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
