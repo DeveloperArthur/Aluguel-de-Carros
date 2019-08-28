@@ -1,32 +1,33 @@
 import CRUD from '@/components/crud/CRUD.js'
+import {store} from '../store.js'
 
 export default{
     todosCarrosParaAlugar(){
-        return CRUD.lista('/carros')
+        return CRUD.lista('/carro')
     },
 
     todasMinhasLocacoes(){
-        return CRUD.lista('/aluguel')
+        return CRUD.lista('/aluguel/usuario/' + store.state.usuarioLogado.id)
     },
 
     salva(locacao){
-        const jsonCliente = JSON.stringify(locacao);
-        return CRUD.novo('/aluguel', jsonCliente)
+        let locacaoFormatada = locacao;
+        locacaoFormatada.usuarioClienteId = store.state.usuarioLogado.id
+        const jsonAluguel = JSON.stringify(locacaoFormatada);
+        return CRUD.novo('/aluguel', jsonAluguel)
     },
 
-    atualiza(aluguel){
-        const jsonClienteTexto = {
-            kmRodados: aluguel.kmRodados,
-            docCarro: aluguel.docCarro,
-            tipoCombustivel: aluguel.tipoCombustivel,
-            marca: aluguel.marca,
-            modelo: aluguel.modelo,
-            placa: aluguel.placa,
-            dataRet: aluguel.dataRet,
-            dataEnt: aluguel.dataEnt,
+    atualiza(locacao){  
+        const jsonLocacaoTexto = {
+            id: locacao.id,            
+            retirada: locacao.retirada,
+            entrega: locacao.entrega,
+            valor: locacao.valor,
+            carro:  locacao.carro,
+            usuarioCliente: locacao.usuarioCliente
         }
-        const jsonCliente = JSON.stringify(jsonClienteTexto);
-        return CRUD.atualiza('/aluguel/' + aluguel.id, jsonCliente)
+        const jsonLocacao = JSON.stringify(jsonLocacaoTexto);
+        return CRUD.atualiza('/aluguel', jsonLocacao) 
     },
     
     apaga(aluguel){
