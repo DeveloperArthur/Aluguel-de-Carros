@@ -8,8 +8,4 @@ Front-end com @leandrogslva usando Vue.js + VueX + Vue Router + Vuetify + HTML +
 
 Autores: Arthur, Leandro
 
-Serviços:
-
-back-end: https://backend-dev-dot-glass-glow-216222.appspot.com/usuario
-
-front-end: https://glass-glow-216222.appspot.com
+Aplicação: https://glass-glow-216222.appspot.com
