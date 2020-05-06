@@ -39,8 +39,7 @@ public class UsuarioServiceImpl implements UsuarioService {
     }
 
     @Override
-    public Usuario novo(Usuario usuario) {
-        usuario.setNome(usuario.getNome());
+    public Usuario adicionar(Usuario usuario) {
         return repository.save(usuario);
     }
 
